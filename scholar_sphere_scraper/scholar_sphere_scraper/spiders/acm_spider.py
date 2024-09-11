@@ -10,6 +10,10 @@ class ACMScraper(scrapy.Spider):
 
     default_search_term = 'Abhay Bansal'
 
+    def __init__(self, search_term='', *args, **kwargs):
+        super(ACMScraper, self).__init__(*args, **kwargs)
+        self.search_term = search_term
+
     def start_requests(self):
         search_term = getattr(self, 'search_term', self.default_search_term)
         query_params = {

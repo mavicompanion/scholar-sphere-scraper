@@ -19,6 +19,10 @@ class IEEESpider(scrapy.Spider):
         },
     }
 
+    def __init__(self, search_term='', *args, **kwargs):
+        super(IEEESpider, self).__init__(*args, **kwargs)
+        self.search_term = search_term
+
     def start_requests(self):
         search_term = getattr(self, 'search_term', self.default_search_term)
         query_params = {
