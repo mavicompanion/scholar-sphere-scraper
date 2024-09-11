@@ -4,16 +4,6 @@
 
 This project contains two Scrapy spiders that scrape research papers, titles, authors, abstracts, and citation counts from the **IEEE Xplore** and **ACM Digital Library** websites.
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Spiders Overview](#spiders-overview)
-    - [ieee_spider](#ieee_spider)
-    - [acm_spider](#acm_spider)
-- [Example Output](#example-output)
-- [License](#license)
-
 ## Project Description
 
 The **ACM & IEEE Spiders** are designed to scrape research paper metadata from their respective digital libraries. Both spiders handle dynamic content using `scrapy-splash` to ensure proper loading of JavaScript-rendered pages.
