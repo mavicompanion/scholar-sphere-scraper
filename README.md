@@ -1,6 +1,5 @@
-Here's the complete `README.md` file, written as a single block of Markdown code, ready to be placed in your GitHub repository.
 
-```md
+
 # Scrapy Project: ACM & IEEE Spider
 
 This project contains two Scrapy spiders that scrape research papers, titles, authors, abstracts, and citation counts from the **IEEE Xplore** and **ACM Digital Library** websites.
