@@ -38,22 +38,6 @@ The **ACM & IEEE Spiders** are designed to scrape research paper metadata from t
    docker run -p 8050:8050 scrapinghub/splash
    ```
 
-## Usage
-
-### Running the Spiders
-
-#### Run the **IEEE Spider**:
-The IEEE Spider scrapes data from IEEE Xplore based on the search term provided.
-```bash
-scrapy crawl ieee_spider -a search_term="Your Search Term"
-```
-
-#### Run the **ACM Spider**:
-The ACM Spider scrapes data from ACM Digital Library based on the search term provided.
-```bash
-scrapy crawl acm_spider -a search_term="Your Search Term"
-```
-
 ### Spiders Overview
 
 #### `ieee_spider`
@@ -72,7 +56,7 @@ scrapy crawl acm_spider -a search_term="Your Search Term"
 
 ## Example Output
 
-After running the spiders, the output will be stored in a JSON or CSV file. Here’s an example structure:
+After running the spiders, the output will be stored in a resule.json. Here’s an example structure:
 
 ```json
 {
