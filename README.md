@@ -44,14 +44,14 @@ The **ACM & IEEE Spiders** are designed to scrape research paper metadata from t
 - **Description**: The IEEE spider scrapes research papers from IEEE Xplore. It extracts information like the paper title, link, abstract, citation count, and authors.
 - **Command**: 
    ```bash
-   scrapy crawl ieee_spider -a search_term="Your Search Term"
+   scrapy crawl ieee_spider -a search_term="Your Search Term" -o results.json
    ```
 
 #### `acm_spider`
 - **Description**: The ACM spider scrapes research papers from ACM Digital Library. It extracts information like the paper title, link, abstract, citation count, and authors.
 - **Command**:
    ```bash
-   scrapy crawl acm_spider -a search_term="Your Search Term"
+   scrapy crawl acm_spider -a search_term="Your Search Term" -o results.json
    ```
 
 ## Example Output
