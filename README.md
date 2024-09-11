@@ -62,6 +62,7 @@ After running the spiders, the output will be stored in a resule.json. Here’s 
 {
   "title": "Example Research Paper Title",
   "link": "https://example.com",
+   "details":"Example details of publication",
   "abstract": "This is a sample abstract.",
   "authors": ["Author One", "Author Two"],
   "citation_count": 120
