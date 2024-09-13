@@ -89,3 +89,12 @@ python manage.py runserver
 #### 3. Access the API
 
 The Django API is now running at http://localhost:8000/. You can use a web browser or an API testing tool to interact with the API endpoints.
+
+## API Endpoint: `/api/hello`
+
+The current API endpoint is `/api/hello`. When accessed, it returns a JSON response containing the following message:
+
+```json
+{
+  "message": "This is a test endpoint for Scraper API."
+}
