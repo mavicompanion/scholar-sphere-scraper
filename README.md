@@ -70,3 +70,22 @@ After running the spiders, the output will be stored in a resule.json. Here’s 
   "citation_count": 120
 }
 ```
+## Django Project: A Bridge to Scraped Data
+
+The Django project acts as a gateway between users and the Scrapy spiders. It handles requests, interacts with the spiders, and processes the extracted data, providing a structured interface for accessing scraped information from ACM and IEEE.
+
+### Project Setup
+
+#### 1. Install Required Libraries
+
+```
+pip install django djangorestframework
+```
+#### 2. Start the Django Development Server
+
+```
+python manage.py runserver
+```
+#### 3. Access the API
+
+The Django API is now running at http://localhost:8000/. You can use a web browser or an API testing tool to interact with the API endpoints.
