@@ -1,18 +1,18 @@
 
 
-# Scrapy Project: ACM & IEEE Spider
+## Scrapy Project: ACM & IEEE Spider
 
 This project contains two Scrapy spiders that scrape research papers, titles, authors, abstracts, and citation counts from the **IEEE Xplore** and **ACM Digital Library** websites.
 
-## Project Description
+### Project Description
 
 The **ACM & IEEE Spiders** are designed to scrape research paper metadata from their respective digital libraries. Both spiders handle dynamic content using `scrapy-splash` to ensure proper loading of JavaScript-rendered pages.
 
-### Spider Capabilities:
+#### Spider Capabilities:
 - Scrapes research paper titles, links, abstracts, citation counts, and author details.
 - Handles JavaScript-rendered content using Splash.
 
-## Installation
+### Installation
 
 1. **Clone the Repository**
    ```bash
@@ -38,23 +38,23 @@ The **ACM & IEEE Spiders** are designed to scrape research paper metadata from t
    docker run -p 8050:8050 scrapinghub/splash
    ```
 
-### Spiders Overview
+#### Spiders Overview
 
-#### `ieee_spider`
+##### `ieee_spider`
 - **Description**: The IEEE spider scrapes research papers from IEEE Xplore. It extracts information like the paper title, link, abstract, citation count, and authors.
 - **Command**: 
    ```bash
    scrapy crawl ieee_spider -a search_term="Your Search Term" -o results.json
    ```
 
-#### `acm_spider`
+##### `acm_spider`
 - **Description**: The ACM spider scrapes research papers from ACM Digital Library. It extracts information like the paper title, link, abstract, citation count, and authors.
 - **Command**:
    ```bash
    scrapy crawl acm_spider -a search_term="Your Search Term" -o results.json
    ```
 
-## Example Output
+### Example Output
 
 After running the spiders, the output will be stored in a resule.json. Here’s an example structure:
 
