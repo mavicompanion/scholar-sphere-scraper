@@ -1,4 +1,6 @@
+# Django Scrapy API Project
 
+This project provides a comprehensive solution for web scraping and data extraction. It combines the power of Scrapy and Django to efficiently scrape data from the ACM and IEEE digital libraries and expose it through a user-friendly API. The Scrapy spiders extract relevant information such as titles, links, abstracts, citation counts, and author details, while the Django project provides a structured way to access and utilize this data through well-defined API endpoints.
 
 ## Scrapy Project: ACM & IEEE Spider
 
