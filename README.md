@@ -58,7 +58,7 @@ The **ACM & IEEE Spiders** are designed to scrape research paper metadata from t
 
 ### Example Output
 
-After running the spiders, the output will be stored in a resule.json. Here’s an example structure:
+After running the spiders, the output will be stored in a results.json. Here’s an example structure:
 
 ```json
 {
